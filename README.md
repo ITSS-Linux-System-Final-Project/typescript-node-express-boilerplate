@@ -45,8 +45,6 @@ cp .env.example .env
 - [Validation](#validation)
 - [Authentication](#authentication)
 - [Authorization](#authorization)
-- [Logging](#logging)
-- [Custom Mongoose Plugins](#custom-mongoose-plugins)
 - [Linting](#linting)
 - [Contributing](#contributing)
 
@@ -77,35 +75,6 @@ npm run build
 node dist/app.js
 ```
 
-
-Docker:
-
-```bash
-# run docker container in development mode
-yarn docker:dev
-
-# run docker container in production mode
-yarn docker:prod
-
-# run all tests in a docker container
-yarn docker:test
-```
-
-Linting:
-
-```bash
-# run ESLint
-yarn lint
-
-# fix ESLint errors
-yarn lint:fix
-
-# run prettier
-yarn prettier
-
-# fix prettier errors
-yarn prettier:fix
-```
 
 ## Environment Variables
 
